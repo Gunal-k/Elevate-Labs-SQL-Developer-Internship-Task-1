@@ -4,7 +4,7 @@ INSERT INTO Authors (Name) VALUES
 ('J.R.R. Tolkien');
 
 INSERT INTO Books (Title, AuthorID) VALUES
-('Harry Potter and the Sorcerer\'s Stone', 1),
+('Harry Potter and the Sorcerer''s Stone', 1),
 ('1984', 2),
 ('The Hobbit', 3);
 
