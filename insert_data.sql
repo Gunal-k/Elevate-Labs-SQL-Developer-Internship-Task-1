@@ -14,4 +14,4 @@ INSERT INTO Members (Name, Email) VALUES
 
 INSERT INTO Loans (BookID, MemberID, LoanDate, ReturnDate) VALUES
 (1, 1, '2025-06-01', '2025-06-10'),
-(2, 2, '2025-06-05', NULL); -- not yet returnedauthors
+(2, 2, '2025-06-05', NULL);
