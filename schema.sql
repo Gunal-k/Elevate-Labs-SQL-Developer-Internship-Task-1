@@ -25,6 +25,6 @@ CREATE TABLE Loans (
     MemberID INT,
     LoanDate DATE,
     ReturnDate DATE,
-    FOREIGN KEY (BookID) REFERENCES Books(BookID),
-    FOREIGN KEY (MemberID) REFERENCES Members(MemberID)
+    FOREIGN KEY (BookID) REFERENCES Books(BookID) ON DELETE CASCADE,
+    FOREIGN KEY (MemberID) REFERENCES Members(MemberID) ON DELETE CASCADE
 );
